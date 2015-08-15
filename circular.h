@@ -110,4 +110,26 @@ Circular *new_circular(void);
  */
 Circular *get_circular(void);
 
+/*
+ * ---------------------------------------------------------------------------
+ * Function   : acquire_circular
+ * Description: This function is used to acquire the lock primitive associated
+ *              to the singleton
+ * Param      :
+ * Return     :
+ * ---------------------------------------------------------------------------
+ */
+void acquire_circular(void);
+
+/*
+ * ---------------------------------------------------------------------------
+ * Function   : release_circular
+ * Description: This function is used to release the lock primitive associated
+ *              to the singleton
+ * Param      :
+ * Return     :
+ * ---------------------------------------------------------------------------
+ */
+void release_circular(void);
+
 #endif
